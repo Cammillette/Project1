@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration : none ;
+    font-family : arial, sans-serif ;
+}
+
+
+body{
+    display : flex;
+    flex-direction: column ;
+    min-height : 100vh;
+}
+
+header {
+    display: flex ;
+    justify-content : flex-end ;
+    align-content : center ;
+    margin-right : 30px ;
+    margin-top : 14px ;
+}
+
+header a:hoover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+header img{
+    width : 34px;
+    padding : 5px ;
+    margin: auto 7 px;
+    cursor : pointer ;
+}
+
+header img:hover{
+    opacity: .8;
+}
+
+nav button{
+    border : 1px solid ;
+    font-weight : bold;
+    outline : none ;
+    background: #1a73e8 ;
+    color: #fff ;
+    padding: 9px 23px ;
+    border-radius : 4px ;
+    margin-left : 8px;
+    cursor : pointer ;
+}
+
+
+
+
+main {
+
+}
+
+section {
+
+}
+
+footer{
+    color : #70757a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:center ; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    font-family: arial,sans-serif;
+
+} 
+
+/* .objectifs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-between; 
+}
+
+.support{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-between;
+    flex-wrap: wrap;  */
+}
